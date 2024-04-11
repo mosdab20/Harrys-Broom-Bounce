@@ -41,3 +41,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Front
+    uniqueID: 3992158595
+    locked: 0
+  - name: SecondBackground
+    uniqueID: 3895263309
+    locked: 0
+  - name: Layer 3
+    uniqueID: 4285007185
+    locked: 0
+  - name: Layer 4
+    uniqueID: 478230973
+    locked: 0
+  - name: ' Layer 5'
+    uniqueID: 1868000533
+    locked: 0
+  - name: ' Layer 6'
+    uniqueID: 480290935
+    locked: 0
