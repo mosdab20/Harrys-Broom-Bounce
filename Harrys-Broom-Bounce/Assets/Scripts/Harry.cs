@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Harry : MonoBehaviour
 {
-    public float flugGeschwindigkeit = 10f; // Geschwindigkeit des Fliegens nach oben oder unten
+    public float flugGeschwindigkeit = 8f; // Geschwindigkeit des Fliegens nach oben oder unten
     public float vorwaertsGeschwindigkeit = 2f; // Langsame Vorwärtsbewegung
     public float schwerkraftFaktor = 2f; // Schwerkraftfaktor, um die Fallgeschwindigkeit zu erhöhen
     public Transform spawnPunkt; // Referenz zum Spawnpunkt
