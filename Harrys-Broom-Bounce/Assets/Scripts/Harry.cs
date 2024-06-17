@@ -6,6 +6,7 @@ public class Harry : MonoBehaviour
     public float vorwaertsGeschwindigkeit = 2f; // Langsame Vorwärtsbewegung
     public float schwerkraftFaktor = 2f; // Schwerkraftfaktor, um die Fallgeschwindigkeit zu erhöhen
     public Transform spawnPunkt; // Referenz zum Spawnpunkt
+    public float rotationsWinkel = 15f; // Winkel der Rotation beim Aufwärts- und Abwärtsfliegen
     private Rigidbody2D rb2d; // Rigidbody2D-Komponente
     private Transform kameraTransform;
 
@@ -30,6 +31,20 @@ public class Harry : MonoBehaviour
         // Bewege Harry basierend auf der vertikalen Eingabe nach oben oder unten
         // Diesmal in der y-Achse, passend für 2D
         rb2d.velocity = new Vector2(rb2d.velocity.x, vertikaleEingabe * flugGeschwindigkeit);
+
+        // Rotieren Harry basierend auf der vertikalen Eingabe
+        if (vertikaleEingabe > 0)
+        {
+            transform.rotation = Quaternion.Euler(0, 0, rotationsWinkel);
+        }
+        else if (vertikaleEingabe < 0)
+        {
+            transform.rotation = Quaternion.Euler(0, 0, -rotationsWinkel);
+        }
+        else
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 0); // Zurück zur Standardrotation
+        }
     }
 
     private void LateUpdate()
