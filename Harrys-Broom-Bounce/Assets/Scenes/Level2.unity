@@ -3044,7 +3044,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 957247478cdbbf54385af420d28c2ab8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3596,7 +3596,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 957247478cdbbf54385af420d28c2ab8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3977,8 +3977,16 @@ PrefabInstance:
       value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 3471501550488860540, guid: 49e3c4a9d5ee37149ac3581e0fa5f819, type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3471501550488860540, guid: 49e3c4a9d5ee37149ac3581e0fa5f819, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3471501550488860540, guid: 49e3c4a9d5ee37149ac3581e0fa5f819, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 480290935
       objectReference: {fileID: 0}
     - target: {fileID: 6033633071182339737, guid: 49e3c4a9d5ee37149ac3581e0fa5f819, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4022,11 +4030,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7193558511360169388, guid: 49e3c4a9d5ee37149ac3581e0fa5f819, type: 3}
       propertyPath: m_SortingLayer
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7193558511360169388, guid: 49e3c4a9d5ee37149ac3581e0fa5f819, type: 3}
       propertyPath: m_SortingLayerID
-      value: 0
+      value: -399703987
       objectReference: {fileID: 0}
     - target: {fileID: 8063573259313881563, guid: 49e3c4a9d5ee37149ac3581e0fa5f819, type: 3}
       propertyPath: m_LocalScale.x
@@ -4072,11 +4080,11 @@ PrefabInstance:
       objectReference: {fileID: 1677997757}
     - target: {fileID: 669366761675994922, guid: 153207f22e4a4ee4faa0034b72a053d0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.29
       objectReference: {fileID: 0}
     - target: {fileID: 669366761675994922, guid: 153207f22e4a4ee4faa0034b72a053d0, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.29
       objectReference: {fileID: 0}
     - target: {fileID: 669366761675994922, guid: 153207f22e4a4ee4faa0034b72a053d0, type: 3}
       propertyPath: m_LocalScale.z
