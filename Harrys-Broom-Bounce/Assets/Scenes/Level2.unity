@@ -282,6 +282,7 @@ MonoBehaviour:
   vorwaertsGeschwindigkeit: 3.7
   schwerkraftFaktor: 2
   spawnPunkt: {fileID: 1677997757}
+  rotationsWinkel: 15
 --- !u!60 &312253310
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1994,6 +1995,7 @@ GameObject:
   - component: {fileID: 1112860499}
   - component: {fileID: 1112860498}
   - component: {fileID: 1112860500}
+  - component: {fileID: 1112860501}
   m_Layer: 0
   m_Name: Trap2
   m_TagString: Stange
@@ -2130,6 +2132,62 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!60 &1112860501
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112860497}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8, y: 0.8}
+    newSize: {x: 0.8, y: 0.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.22999999, y: 0.049999997}
+      - {x: 0.099999994, y: 0.17999999}
+      - {x: 0.049999997, y: 0.39999998}
+      - {x: -0.049999997, y: 0.39999998}
+      - {x: -0.08, y: 0.22}
+      - {x: -0.31, y: 0.04}
+      - {x: -0.39999998, y: 0.03}
+      - {x: -0.39999998, y: -0.39999998}
+      - {x: 0.39999998, y: -0.39999998}
+      - {x: 0.39999998, y: 0.01}
+      - {x: 0.39, y: 0.049999997}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1134793866
 GameObject:
   m_ObjectHideFlags: 0
@@ -2141,7 +2199,7 @@ GameObject:
   - component: {fileID: 1134793867}
   m_Layer: 0
   m_Name: Cage
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2173,6 +2231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1175517243}
   - component: {fileID: 1175517242}
+  - component: {fileID: 1175517244}
   m_Layer: 0
   m_Name: rope (1)
   m_TagString: Stange
@@ -2247,6 +2306,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1134793867}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1175517244
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175517241}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.04, y: -0.08}
+      - {x: 0.049999997, y: -0.08}
+      - {x: 0.049999997, y: 0.08}
+      - {x: -0.049999997, y: 0.08}
+      - {x: -0.049999997, y: -0.07}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1175910481
 GameObject:
   m_ObjectHideFlags: 0
@@ -2832,6 +2941,7 @@ MonoBehaviour:
   vorwaertsGeschwindigkeit: 2.7
   schwerkraftFaktor: 2
   spawnPunkt: {fileID: 1677997757}
+  rotationsWinkel: 15
 --- !u!1 &1379041515
 GameObject:
   m_ObjectHideFlags: 0
