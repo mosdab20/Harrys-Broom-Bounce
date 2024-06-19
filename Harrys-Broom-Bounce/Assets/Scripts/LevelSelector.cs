@@ -14,6 +14,6 @@ public int level;
     }
 
    public void OpenScene () {
-        SceneManager.LoadScene("Level " + level.ToString());
+        SceneManager.LoadScene("Level" + level.ToString());
    }
 }

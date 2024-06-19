@@ -18,6 +18,6 @@ public class StartSceneController : MonoBehaviour
     }
 
     public void OnStartGame(){
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("LevelSelector");
     }
 }
