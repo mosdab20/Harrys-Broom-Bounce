@@ -1432,6 +1432,7 @@ GameObject:
   - component: {fileID: 679718304}
   - component: {fileID: 679718303}
   - component: {fileID: 679718305}
+  - component: {fileID: 679718306}
   m_Layer: 0
   m_Name: liana1
   m_TagString: Stange
@@ -1773,6 +1774,19 @@ PolygonCollider2D:
       - {x: 2.405, y: 1.74}
       - {x: 2.405, y: 1.9499999}
   m_UseDelaunayMesh: 0
+--- !u!114 &679718306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679718302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1 &684663068
 GameObject:
   m_ObjectHideFlags: 0
@@ -1939,6 +1953,7 @@ GameObject:
   - component: {fileID: 888381929}
   - component: {fileID: 888381928}
   - component: {fileID: 888381927}
+  - component: {fileID: 888381930}
   m_Layer: 0
   m_Name: liana2
   m_TagString: Stange
@@ -2280,6 +2295,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!114 &888381930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888381926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1 &894069665
 GameObject:
   m_ObjectHideFlags: 0
@@ -2543,6 +2571,7 @@ GameObject:
   - component: {fileID: 925275091}
   - component: {fileID: 925275090}
   - component: {fileID: 925275089}
+  - component: {fileID: 925275092}
   m_Layer: 0
   m_Name: liana3
   m_TagString: Stange
@@ -2884,6 +2913,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &925275092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925275088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1 &985745685
 GameObject:
   m_ObjectHideFlags: 0
@@ -4023,6 +4065,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1436736310}
   - component: {fileID: 1436736309}
+  - component: {fileID: 1436736311}
   m_Layer: 0
   m_Name: CeilingCollider
   m_TagString: Stange
@@ -4090,6 +4133,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1436736311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436736308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1 &1449804858
 GameObject:
   m_ObjectHideFlags: 0
@@ -4295,7 +4351,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -5267,6 +5323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1871986538}
   - component: {fileID: 1871986537}
+  - component: {fileID: 1871986539}
   m_Layer: 0
   m_Name: floorCollider2
   m_TagString: Stange
@@ -5334,6 +5391,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1871986539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871986536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1 &1906236098
 GameObject:
   m_ObjectHideFlags: 0

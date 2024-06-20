@@ -905,6 +905,7 @@ GameObject:
   - component: {fileID: 421561461}
   - component: {fileID: 421561460}
   - component: {fileID: 421561459}
+  - component: {fileID: 421561462}
   - component: {fileID: 421561458}
   m_Layer: 0
   m_Name: Fire2 (1)
@@ -1054,6 +1055,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &421561462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421561457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1 &430840995
 GameObject:
   m_ObjectHideFlags: 0
@@ -1064,6 +1078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 430840997}
   - component: {fileID: 430840996}
+  - component: {fileID: 430840998}
   m_Layer: 0
   m_Name: floorCollider1
   m_TagString: Stange
@@ -1131,6 +1146,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &430840998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430840995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1 &538557282
 GameObject:
   m_ObjectHideFlags: 0
@@ -1142,6 +1170,7 @@ GameObject:
   - component: {fileID: 538557285}
   - component: {fileID: 538557284}
   - component: {fileID: 538557283}
+  - component: {fileID: 538557287}
   - component: {fileID: 538557286}
   m_Layer: 0
   m_Name: Suriken1
@@ -1293,6 +1322,19 @@ PolygonCollider2D:
       - {x: 0.16, y: -0.12}
       - {x: 0.16, y: 0.11}
   m_UseDelaunayMesh: 0
+--- !u!114 &538557287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538557282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1 &569943888
 GameObject:
   m_ObjectHideFlags: 0
@@ -1735,6 +1777,7 @@ GameObject:
   - component: {fileID: 888381929}
   - component: {fileID: 888381928}
   - component: {fileID: 888381927}
+  - component: {fileID: 888381930}
   m_Layer: 0
   m_Name: liana2
   m_TagString: Stange
@@ -2076,6 +2119,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!114 &888381930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888381926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1 &916986953
 GameObject:
   m_ObjectHideFlags: 0
@@ -2564,6 +2620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1083908566}
   - component: {fileID: 1083908565}
+  - component: {fileID: 1083908567}
   m_Layer: 0
   m_Name: floorCollider2 (1)
   m_TagString: Stange
@@ -2631,6 +2688,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1083908567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083908564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1 &1112860497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2642,6 +2712,7 @@ GameObject:
   - component: {fileID: 1112860499}
   - component: {fileID: 1112860498}
   - component: {fileID: 1112860500}
+  - component: {fileID: 1112860502}
   - component: {fileID: 1112860501}
   m_Layer: 0
   m_Name: Trap2
@@ -2835,6 +2906,19 @@ PolygonCollider2D:
       - {x: 0.39999998, y: 0.01}
       - {x: 0.39, y: 0.049999997}
   m_UseDelaunayMesh: 0
+--- !u!114 &1112860502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112860497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1 &1134793866
 GameObject:
   m_ObjectHideFlags: 0
@@ -2879,6 +2963,7 @@ GameObject:
   - component: {fileID: 1175517243}
   - component: {fileID: 1175517242}
   - component: {fileID: 1175517244}
+  - component: {fileID: 1175517245}
   m_Layer: 0
   m_Name: rope (1)
   m_TagString: Stange
@@ -3003,6 +3088,19 @@ PolygonCollider2D:
       - {x: -0.049999997, y: 0.08}
       - {x: -0.049999997, y: -0.07}
   m_UseDelaunayMesh: 0
+--- !u!114 &1175517245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175517241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1 &1175910481
 GameObject:
   m_ObjectHideFlags: 0
@@ -3014,6 +3112,7 @@ GameObject:
   - component: {fileID: 1175910485}
   - component: {fileID: 1175910484}
   - component: {fileID: 1175910483}
+  - component: {fileID: 1175910486}
   - component: {fileID: 1175910482}
   m_Layer: 0
   m_Name: Fire1
@@ -3163,6 +3262,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1175910486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175910481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1001 &1192318942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3950,6 +4062,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1436736310}
   - component: {fileID: 1436736309}
+  - component: {fileID: 1436736311}
   m_Layer: 0
   m_Name: CeilingCollider
   m_TagString: Stange
@@ -4017,6 +4130,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1436736311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436736308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1001 &1456139749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4155,7 +4281,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -4353,6 +4479,7 @@ GameObject:
   - component: {fileID: 1684240750}
   - component: {fileID: 1684240749}
   - component: {fileID: 1684240748}
+  - component: {fileID: 1684240751}
   - component: {fileID: 1684240747}
   - component: {fileID: 1684240746}
   m_Layer: 0
@@ -4550,6 +4677,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1684240751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684240745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1 &1706799241
 GameObject:
   m_ObjectHideFlags: 0
@@ -4729,6 +4869,7 @@ GameObject:
   - component: {fileID: 1840916532}
   - component: {fileID: 1840916531}
   - component: {fileID: 1840916530}
+  - component: {fileID: 1840916533}
   - component: {fileID: 1840916529}
   - component: {fileID: 1840916528}
   m_Layer: 0
@@ -4926,6 +5067,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1840916533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840916527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1 &1871986536
 GameObject:
   m_ObjectHideFlags: 0
@@ -4936,6 +5090,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1871986538}
   - component: {fileID: 1871986537}
+  - component: {fileID: 1871986539}
   m_Layer: 0
   m_Name: floorCollider2
   m_TagString: Stange
@@ -5003,6 +5158,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1871986539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871986536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1 &1906236098
 GameObject:
   m_ObjectHideFlags: 0
@@ -5182,6 +5350,7 @@ GameObject:
   - component: {fileID: 2105099728}
   - component: {fileID: 2105099727}
   - component: {fileID: 2105099726}
+  - component: {fileID: 2105099729}
   - component: {fileID: 2105099725}
   m_Layer: 0
   m_Name: Fire2
@@ -5331,6 +5500,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2105099729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105099724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a994006f993c4b8d83aadf74a1394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harry: {fileID: 1348907962}
 --- !u!1001 &4731795148056173447
 PrefabInstance:
   m_ObjectHideFlags: 0

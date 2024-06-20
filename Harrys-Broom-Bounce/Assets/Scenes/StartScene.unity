@@ -281,7 +281,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5953064727045682054, guid: c77e9fd367ba33d4bbf52c1be9719b6b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 217.96497
+      value: 166
       objectReference: {fileID: 0}
     - target: {fileID: 5965766582026079553, guid: c77e9fd367ba33d4bbf52c1be9719b6b, type: 3}
       propertyPath: m_SizeDelta.x
@@ -412,7 +412,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8857413335298544880, guid: c77e9fd367ba33d4bbf52c1be9719b6b, type: 3}
+    - {fileID: 7295435233541118777, guid: c77e9fd367ba33d4bbf52c1be9719b6b, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c77e9fd367ba33d4bbf52c1be9719b6b, type: 3}
@@ -521,7 +523,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
