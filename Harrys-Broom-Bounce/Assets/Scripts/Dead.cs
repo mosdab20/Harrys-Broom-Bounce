@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartSceneController : MonoBehaviour
+public class Dead : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -11,10 +11,13 @@ public class StartSceneController : MonoBehaviour
         
     }
 
-
-    public void OnStartGame(){
-        SceneManager.LoadScene("LevelSelector");
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 
-    
+       public void OnDeadScene (){
+        SceneManager.LoadScene("LevelSelector");
+   }
 }

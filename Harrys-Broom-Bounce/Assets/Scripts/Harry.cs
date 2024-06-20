@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 public class Harry : MonoBehaviour
 {
@@ -10,8 +11,10 @@ public class Harry : MonoBehaviour
     private Rigidbody2D rb2d; // Rigidbody2D-Komponente
     private Transform kameraTransform;
 
+
     void Start()
     {
+
         // Hol dir die Rigidbody2D-Komponente des GameObjects
         rb2d = GetComponent<Rigidbody2D>();
         kameraTransform = Camera.main.transform;
@@ -70,4 +73,7 @@ public class Harry : MonoBehaviour
             Debug.Log("Harry zurückgesetzt auf Spawnpunkt: " + spawnPunkt.position); // Debug-Nachricht
         }
     }
+
+   
+
 }
